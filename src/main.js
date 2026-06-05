@@ -20,9 +20,6 @@ const toast = document.getElementById("toast");
 
 
 
-console.log(client)
-
-
 titreInput.addEventListener("input", validateForm);
 descriptionInput.addEventListener("input", validateForm);
 
