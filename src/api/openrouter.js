@@ -1,6 +1,9 @@
+const OPENROUTER_KEY = import.meta.env.VITE_OPENROUTER_KEY;
+
+
 export async function getCategorieFromAI(titre, description) {
   const models = [
-    "google/gemma-3-27b-it"
+    "google/gemma-3-27b-it",
   ];
 
   for (let modelIa of models) {
