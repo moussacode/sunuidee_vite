@@ -45,5 +45,5 @@ Réponds uniquement par la catégorie.
     }
   }
 
-  throw new Error("Aucun modèle IA disponible");
+  return 'tech';
 }
